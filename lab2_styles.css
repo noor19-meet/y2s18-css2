@@ -11,8 +11,21 @@ h1 {
 p {
     color: green;
     font-size: 24pt;
+
 }
 
 a {
     color:red;
+}
+a:hover{
+	color: green;
+}
+.important_paragraph{}
+.important_paragraph:hover{
+	background-color: yellow;
+	font-size: 40px;
+}
+.less_important_paragrahp{}
+.less_important_paragrahp:hover{
+	color: blue;
 }
